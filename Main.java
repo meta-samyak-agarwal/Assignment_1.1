@@ -7,14 +7,14 @@ public class Main{
     static class Item{   // a constructor for the item creation
         int id ;
         String name ;
-        String Description ;
+        String description ;
         int price ;
 
-        public Item(int id , String name , String Description , int price)
+        public Item(int id , String name , String description , int price)
         {
             this.id = id ;
             this.name = name ;
-            this.Description = Description ;
+            this.description = description ;
             this.price = price ;
         }
     }
